@@ -126,24 +126,5 @@ The transformation stage adds:
 - `is_peak_hour`
 - `parking_status`
 
-## Upgrade Ideas
 
-- Run the scheduler:
 
-```bash
-python scripts/scheduler.py
-```
-
-- Add logging, tests, and data quality checks
-
-## Publish To GitHub
-
-After creating a new empty GitHub repository, run these commands from the project folder:
-
-```bash
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/parking-data-pipeline.git
-git push -u origin main
-```
