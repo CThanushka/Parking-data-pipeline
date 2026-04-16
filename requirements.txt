@@ -1,0 +1,6 @@
+faker
+pandas
+pymongo
+python-dotenv
+schedule
+streamlit
